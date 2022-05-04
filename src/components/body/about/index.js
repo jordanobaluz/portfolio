@@ -8,7 +8,7 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           <h4>Olá, sou Jordano Baluz</h4>
-          Sou programador web, atualmente estudando frontend com ReactJS
+          Sou programador web, atualmente estudando frontend focado em ReactJS
         </div>
         <div className="about-photo">
           <img
