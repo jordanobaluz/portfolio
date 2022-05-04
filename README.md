@@ -1,6 +1,8 @@
-# Portfólio Pessoal
+# Portifólio Pessoal
 
-Projeto de portfólio pessoal desenvolvido utilizando ReactJs para colocar em prática os conhecimentos adquiridos com os estudos.
+Projeto de portifólio pessoal desenvolvido utilizando ReactJs para colocar em prática os conhecimentos adquiridos com os estudos.
+
+[![portfolio1](https://media0.giphy.com/media/dBwxgDrnlj4FO0aLFf/giphy.gif?cid=790b7611a92c3e4dbaaa8365d906fa4adb4431bd57169571&rid=giphy.gif&ct=g "portfolio1")](https://media0.giphy.com/media/dBwxgDrnlj4FO0aLFf/giphy.gif?cid=790b7611a92c3e4dbaaa8365d906fa4adb4431bd57169571&rid=giphy.gif&ct=g "portfolio1")
 
 ### Método de criação
 
