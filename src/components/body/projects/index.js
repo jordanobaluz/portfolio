@@ -12,7 +12,7 @@ function Projects() {
       <label className="section-tittle">Projetos</label>
       <div>
         {data.map((project) => {
-          return <ProjectCard project={project} />;
+          return <ProjectCard project={project} key={project.id} />;
         })}
       </div>
     </div>

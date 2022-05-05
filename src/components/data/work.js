@@ -1,5 +1,6 @@
 export const WorkData = [
   {
+    id: "1",
     company: "Company Test 1",
     designation: "Software Engineer",
     dateStart: "04-05-22",
@@ -9,6 +10,7 @@ export const WorkData = [
     work: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab laboriosam mollitia nesciunt omnis. Vitae, alias explicabo! Corporis, neque distinctio tenetur tempora, beatae, maiores ipsum exercitationem adipisci quasi ipsa nam aliquam.",
   },
   {
+    id: "2",
     company: "Company Test 2",
     designation: "Software Engineer",
     dateStart: "04-05-21",

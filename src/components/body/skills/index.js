@@ -13,11 +13,11 @@ function Skills() {
       <div className="skills-container">
         {data.map((item) => {
           return (
-            <div className="skills-section">
+            <div className="skills-section" key={item.id}>
               <label className="skills-section-tittle">{item.type}</label>
               <div className="skills-list">
                 {item.list.map((skill) => {
-                  return <SkillCard skill={skill} />;
+                  return <SkillCard skill={skill} key={skill.id} />;
                 })}
               </div>
             </div>
