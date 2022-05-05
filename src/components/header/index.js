@@ -3,6 +3,7 @@ import "./header.css";
 import Web from "./web";
 import Mobile from "./mobile";
 
+//test if the page is scrolled to show or hide the header
 function Header() {
   window.onscroll = function () {
     scrollFunction();
@@ -18,6 +19,7 @@ function Header() {
       document.getElementById("header").classList.remove("header-down");
     }
   }
+  //hook to open or close the mobile menu
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header" id="header">
