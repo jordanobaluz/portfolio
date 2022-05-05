@@ -3,8 +3,19 @@
   justify-content: space-between;
   flex: 1;
   padding: 12px;
-  position: relative;
   align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+.header-down {
+  position: fixed;
+  width: 68%;
+  transition: top 0.3s;
+  background: #e0e0e0;
+  color: #fff;
+  top: 0px;
+  transition: background 0.5s;
 }
 
 .menu {
@@ -29,11 +40,19 @@
   display: flex;
   font-size: 36px;
   font-weight: 600;
+  height: 64px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-down {
+    width: 88%;
+  }
 }
 
 @media only screen and (max-width: 720px) {
   .mobile-menu {
     display: flex;
+    justify-content: flex-end;
   }
 
   .web-menu {

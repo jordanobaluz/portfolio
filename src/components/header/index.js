@@ -4,10 +4,28 @@ import Web from "./web";
 import Mobile from "./mobile";
 
 function Header() {
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      document.getElementById("header").classList.add("header-down");
+    } else {
+      document.getElementById("header").classList.remove("header-down");
+    }
+  }
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="header">
-      <div className="logo">Logo</div>
+    <div className="header" id="header">
+      <div className="logo">
+        <a href="/#">
+          <img src="./images/logo-out-bg.png" alt="Logo" className="logo" />
+        </a>
+      </div>
       <div className="menu">
         <div className="web-menu">
           <Web />
