@@ -5,7 +5,7 @@
 }
 
 .web-option {
-  font-size: 20px;
+  font-size: 22px;
   margin-right: 16px;
   font-weight: 400;
 }
@@ -18,11 +18,16 @@
 }
 
 .option-icon {
-  display: flex;
+  display: none;
   align-items: center;
   margin-right: 4px;
 }
 
 .web-option:last-child {
   margin-right: 0px;
+}
+
+.web-option a:hover {
+  color: #394955;
+  border-bottom: 3px solid #40bcff;
 }
