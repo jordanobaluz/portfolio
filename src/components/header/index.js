@@ -24,7 +24,7 @@ function Header() {
   return (
     <div className="header" id="header">
       <div className="logo">
-        <a href="/#">
+        <a href="https://jordanobaluz.github.io/portfolio2">
           <img src="./images/logo-out-bg.png" alt="Logo" className="logo" />
         </a>
       </div>
