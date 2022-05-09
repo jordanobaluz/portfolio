@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolio2/static/css/main.c9809c8e.css",
+    "main.js": "/github.io/portfolio2/static/js/main.91bdb982.js",
+    "static/js/787.1297335f.chunk.js": "/github.io/portfolio2/static/js/787.1297335f.chunk.js",
+    "static/media/ticbox.png": "/github.io/portfolio2/static/media/ticbox.3a4eb70b85b6961d5dcf.png",
+    "index.html": "/github.io/portfolio2/index.html",
+    "main.c9809c8e.css.map": "/github.io/portfolio2/static/css/main.c9809c8e.css.map",
+    "main.91bdb982.js.map": "/github.io/portfolio2/static/js/main.91bdb982.js.map",
+    "787.1297335f.chunk.js.map": "/github.io/portfolio2/static/js/787.1297335f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9809c8e.css",
+    "static/js/main.91bdb982.js"
+  ]
+}
